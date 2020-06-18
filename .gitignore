@@ -4,7 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-
+build/*
 ### STS ###
 .apt_generated
 .classpath
@@ -30,4 +30,6 @@ out/
 
 ### VS Code ###
 .vscode/
+.DS_Store
+.idea
 /src/main/java/com/nokia/app/school_admin_demo/controller/SubjectController.java
