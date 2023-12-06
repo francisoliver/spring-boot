@@ -2,9 +2,9 @@ HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-build/*
+!**/src/main/**/build/
+!**/src/test/**/build/
+
 ### STS ###
 .apt_generated
 .classpath
@@ -13,6 +13,9 @@ build/*
 .settings
 .springBeans
 .sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
 .idea
@@ -20,6 +23,8 @@ build/*
 *.iml
 *.ipr
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -30,6 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-.DS_Store
-.idea
-/src/main/java/com/nokia/app/school_admin_demo/controller/SubjectController.java
